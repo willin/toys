@@ -38,23 +38,10 @@ var app = new Vue({
   // computed properties
   // http://vuejs.org/guide/computed.html
   computed: {
-    // filteredTodos: function () {
-    //   return filters[this.visibility](this.todos)
-    // },
     remaining: function () {
       // return filters.active(this.todos).length
       return this.list.reduce((sum, cate) => cate.items.length + sum, 0)
-    },
-    // allDone: {
-    //   get: function () {
-    //     return this.remaining === 0
-    //   },
-    //   set: function (value) {
-    //     this.todos.forEach(function (todo) {
-    //       todo.completed = value
-    //     })
-    //   }
-    // }
+    }
   },
 
   filters: {
@@ -66,10 +53,9 @@ var app = new Vue({
   // methods that implement data logic.
   // note there's no DOM manipulation here at all.
   methods: {
-
-    // removeCompleted: function () {
-    //   this.todos = filters.active(this.todos)
-    // }
+    filter(toys) {
+      return filters[this.visibility](toys)
+    }
   }
 })
 

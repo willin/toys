@@ -21,12 +21,12 @@
         <ul class="todo-list">
           <template v-for="l in list">
             <li><h3>{{ l.category }}</h3></li>
-            <li v-for="item in l.items"
+            <li v-for="item in filter(l.items)"
               class="item"
-              :key="item.name"
+              :key="item.name + Math.random()"
               :class="{ unbought: !item.bought, deleted: item.deleted }">
               <div class="view">
-                <input class="toggle" type="checkbox" v-model="item.bought" readonly>
+                <input class="toggle" type="checkbox" v-model="item.bought" disabled>
                 <label> 
                   <del v-if="item.deleted"><span>{{ item.name }}</span></del>
                   <span v-else>{{ item.name }}</span>
@@ -44,9 +44,9 @@
         </span>
         <ul class="filters">
           <li><a href="#/all" :class="{ selected: visibility == 'all' }">All</a></li>
-          <li><a href="#/undeleted" :class="{ selected: visibility == 'undeleted' }">Undeleted</a></li>
-          <li><a href="#/bought" :class="{ selected: visibility == 'bought' }">Bought</a></li>
           <li><a href="#/want" :class="{ selected: visibility == 'unbought' }">Want</a></li>
+          <li><a href="#/bought" :class="{ selected: visibility == 'bought' }">Bought</a></li>
+          <li><a href="#/undeleted" :class="{ selected: visibility == 'undeleted' }">Undeleted</a></li>
           <li><a href="#/deleted" :class="{ selected: visibility == 'deleted' }">Deleted</a></li>
         </ul>
       </footer>
