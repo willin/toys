@@ -8,13 +8,23 @@ let content = '';
 toys.forEach((l) => {
   content += `\n## ${l.category} \n\n`;
   (l.items || []).forEach((toy) => {
-    content += `- [${toy.bought ? 'x' : ' '}] ${toy.deleted ? '<del>' : ''}${toy.name}${toy.deleted ? '</del>' : ''}`;
+    content += `- [${toy.bought ? 'x' : ' '}] `;
+    if (toy.deleted) {
+      content += '<del>';
+    }
+    content += toy.name;
     if (toy.meta) {
       content += ` (${toy.meta})`;
     }
-    content += ` (${toy.year})\n`;
+    if (toy.deleted) {
+      content += '</del>';
+    }
+    if (toy.year) {
+      content += ` (${toy.year})`;
+    }
+    content += '\n';
   });
 });
 
-writeFileSync(`${__dirname}/README.md`, template + content, 'utf8');
+writeFileSync(`${__dirname}/README.md`, template.replace('[TOYS]', content), 'utf8');
 
