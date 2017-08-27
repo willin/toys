@@ -72,8 +72,13 @@
           bought: true
         },
         {
-          name: 'Logitech Master 2S',
+          name: 'Logitech MX Master 2S',
           year: 2017,
+          bought: true
+        },
+        {
+          name: 'Logitech K780',
+          year: 2015,
           bought: true
         },
         {
@@ -81,6 +86,11 @@
           year: 2016,
           bought: true,
           deleted: true
+        },
+        {
+          name: 'Razer DeathAdder 2013',
+          year: 2016,
+          bought: true
         },
         {
           name: 'HHKB Pro 2 Type-S',
@@ -99,6 +109,18 @@
           meta: '100% Green Switch',
           year: '2015',
           bought: true
+        },
+        {
+          name: 'Logitech K480',
+          year: 2015,
+          bought: true,
+          deleted: true
+        },
+        {
+          name: 'SteelSeries Sensei',
+          year: 2015,
+          bought: true,
+          deleted: true
         },
         {
           name: 'Cherry G80-1869HYNUS-2',
@@ -133,6 +155,12 @@
         },
         {
           name: 'Samsung Galaxy S7',
+          year: 2016,
+          bought: true,
+          deleted: true
+        },
+        {
+          name: 'iPhone 6s plus',
           year: 2016,
           bought: true,
           deleted: true

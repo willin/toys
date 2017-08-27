@@ -1,7 +1,7 @@
 {
-  "name": "toys",
+  "name": "wtoys",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "toys.js",
   "repository": "git@github.com:willin/toys.git",
   "author": "Willin Wang <willin@willin.org>",
   "license": "MIT",
