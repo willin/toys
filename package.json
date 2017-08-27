@@ -4,5 +4,12 @@
   "main": "index.js",
   "repository": "git@github.com:willin/toys.git",
   "author": "Willin Wang <willin@willin.org>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "prepare": "node build"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-dwing": "^1.1.0"
+  }
 }
