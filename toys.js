@@ -154,19 +154,13 @@
           bought: true
         },
         {
-          name: 'Samsung Galaxy S7',
-          year: 2016,
-          bought: true,
-          deleted: true
-        },
-        {
-          name: 'iPhone 6s plus',
-          year: 2016,
-          bought: true,
-          deleted: true
-        },
-        {
           name: 'iPhone 6s',
+          year: 2016,
+          bought: true,
+          deleted: true
+        },
+        {
+          name: 'Samsung Galaxy S7',
           year: 2016,
           bought: true,
           deleted: true
@@ -174,6 +168,12 @@
         {
           name: 'Samsung Galaxy S6',
           year: 2016,
+          bought: true,
+          deleted: true
+        },
+        {
+          name: 'iPhone 6s plus',
+          year: 2015,
           bought: true,
           deleted: true
         },

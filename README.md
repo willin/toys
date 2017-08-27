@@ -38,10 +38,10 @@ A simple vue project to manage toys I wanna buy and already bought. https://toys
 
 - [ ] iPhone 8
 - [x] iPhone 7 plus (2017)
-- [x] <del>Samsung Galaxy S7</del> (2016)
-- [x] <del>iPhone 6s plus</del> (2016)
 - [x] <del>iPhone 6s</del> (2016)
+- [x] <del>Samsung Galaxy S7</del> (2016)
 - [x] <del>Samsung Galaxy S6</del> (2016)
+- [x] <del>iPhone 6s plus</del> (2015)
 - [x] <del>iPhone 6 plus</del> (2014)
 - [x] <del>iPhone 5</del> (2012)
 - [x] <del>iPhone 4s</del> (2011)
