@@ -27,7 +27,7 @@ A simple vue project to manage toys I wanna buy and already bought. https://toys
 - [x] Razer DeathAdder 2013 (2016)
 - [x] HHKB Pro 2 Type-S (60% Capacitive) (2016)
 - [x] <del>Magic Mouse 2</del> (2016)
-- [x] ikbc Poker 3 (100% Green Switch) (2015)
+- [x] ikbc Poker 3 (60% Green Switch) (2015)
 - [x] <del>Logitech K480</del> (2015)
 - [x] <del>SteelSeries Sensei</del> (2015)
 - [x] Cherry G80-1869HYNUS-2 (100% Red Switch) (2014)

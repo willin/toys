@@ -106,7 +106,7 @@
         },
         {
           name: 'ikbc Poker 3',
-          meta: '100% Green Switch',
+          meta: '60% Green Switch',
           year: '2015',
           bought: true
         },
