@@ -40,7 +40,7 @@ A simple vue project to manage toys I wanna buy and already bought. https://toys
 - [x] iPhone 7 plus (2017)
 - [x] <del>iPhone 6s</del> (2016)
 - [x] <del>Samsung Galaxy S7</del> (2016)
-- [x] <del>Samsung Galaxy S6</del> (2016)
+- [x] <del>Samsung Galaxy S6</del> (2015)
 - [x] <del>iPhone 6s plus</del> (2015)
 - [x] <del>iPhone 6 plus</del> (2014)
 - [x] <del>iPhone 5</del> (2012)

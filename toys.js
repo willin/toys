@@ -167,7 +167,7 @@
         },
         {
           name: 'Samsung Galaxy S6',
-          year: 2016,
+          year: 2015,
           bought: true,
           deleted: true
         },
