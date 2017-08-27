@@ -40,7 +40,11 @@ var app = new Vue({
   computed: {
     remaining: function () {
       // return filters.active(this.todos).length
-      return this.list.reduce((sum, cate) => cate.items.length + sum, 0)
+      return this.list.reduce(function (sum, cate) { 
+        return cate.items.filter(function (x) {
+          return !x.deleted && !x.bought
+        }).length + sum;
+      }, 0)
     }
   },
 
