@@ -242,6 +242,21 @@
       category: 'Geeks',
       items: [
         {
+          name: 'Airpods'
+        },
+        {
+          name: 'AfterShokz AS600 TrekzTianium',
+          year: 2017,
+          bought: true,
+          deleted: true
+        },
+        {
+          name: 'Beats Solo 3 Wireless',
+          meta: 'Red limited edition',
+          year: 2017,
+          bought: true
+        },
+        {
           name: 'Phlips 288P6LJEB',
           meta: '4K, 28\'',
           year: 2016,

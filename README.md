@@ -57,6 +57,9 @@ A simple vue project to manage toys I wanna buy and already bought. https://toys
 
 ## Geeks 
 
+- [ ] Airpods
+- [x] <del>AfterShokz AS600 TrekzTianium</del> (2017)
+- [x] Beats Solo 3 Wireless (Red limited edition) (2017)
 - [x] Phlips 288P6LJEB (4K, 28') (2016)
 - [x] AOC C3583FQ/WS (2K, 35') (2016)
 - [x] <del>Kindle Voyage</del> (2015)
