@@ -20,7 +20,7 @@ var filters = {
       return !toy.bought
     })
   },
-  undeleted: function (toys) {
+  active: function (toys) {
     return toys.filter(function (toy) {
       return !toy.deleted
     })
