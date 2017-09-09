@@ -8,7 +8,7 @@ A simple vue project to manage toys I wanna buy and already bought. https://toys
 ## Computers & Laptops 
 
 - [ ] iMac Pro
-- [ ] iPad Pro
+- [x] iPad Pro 12.9' Cellular (12.9' Cellular) (2017)
 - [x] MacBook Pro (with Touch Bar, 15') (2016)
 - [x] <del>MacBook Pro (13')</del> (2015)
 - [x] <del>Terrans Force (Clevo W230ST, 13')</del> (2014)
@@ -19,8 +19,9 @@ A simple vue project to manage toys I wanna buy and already bought. https://toys
 ## Keyboards & Mouse 
 
 - [ ] GH40 (40% Cyan Switch)
-- [ ] Filco 87 (80% Cyan Switch)
-- [x] Qmkeyboard (60% Cyan Switch) (2017)
+- [ ] Cherry MX 8.0 (80% Speed Silver Switch)
+- [ ] Bloody B975 (Light Strike LK3)
+- [x] iPad Smart Keyboard (with Apple Pencil) (2017)
 - [x] Logitech MX Master 2S (2017)
 - [x] Logitech K780 (2015)
 - [x] <del>Logitech MX Master</del> (2016)

@@ -9,7 +9,10 @@
           name: 'iMac Pro'
         },
         {
-          name: 'iPad Pro'
+          name: 'iPad Pro 12.9\' Cellular',
+          meta: '12.9\' Cellular',
+          year: 2017,
+          bought: true
         },
         {
           name: 'MacBook Pro',
@@ -62,12 +65,16 @@
           meta: '40% Cyan Switch'
         },
         {
-          name: 'Filco 87',
-          meta: '80% Cyan Switch'
+          name: 'Cherry MX 8.0',
+          meta: '80% Speed Silver Switch'
         },
         {
-          name: 'Qmkeyboard',
-          meta: '60% Cyan Switch',
+          name: 'Bloody B975',
+          meta: 'Light Strike LK3'
+        },
+        {
+          name: 'iPad Smart Keyboard',
+          meta: 'with Apple Pencil',
           year: 2017,
           bought: true
         },
