@@ -8,7 +8,7 @@ A simple vue project to manage toys I wanna buy and already bought. https://toys
 ## Computers & Laptops 
 
 - [ ] iMac Pro
-- [x] iPad Pro 12.9' Cellular (12.9' Cellular) (2017)
+- [x] iPad Pro (Cellular 12.9') (2017)
 - [x] MacBook Pro (with Touch Bar, 15') (2016)
 - [x] <del>MacBook Pro (13')</del> (2015)
 - [x] <del>Terrans Force (Clevo W230ST, 13')</del> (2014)

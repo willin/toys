@@ -9,8 +9,8 @@
           name: 'iMac Pro'
         },
         {
-          name: 'iPad Pro 12.9\' Cellular',
-          meta: '12.9\' Cellular',
+          name: 'iPad Pro',
+          meta: 'Cellular 12.9\'',
           year: 2017,
           bought: true
         },
