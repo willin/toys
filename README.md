@@ -37,8 +37,8 @@ A simple vue project to manage toys I wanna buy and already bought. https://toys
 
 ## Phones 
 
-- [ ] iPhone 8
-- [x] iPhone 7 plus (2017)
+- [x] iPhone X (2017)
+- [x] <del>iPhone 7 plus</del> (2017)
 - [x] <del>iPhone 6s</del> (2016)
 - [x] <del>Samsung Galaxy S7</del> (2016)
 - [x] <del>Samsung Galaxy S6</del> (2015)
@@ -65,6 +65,11 @@ A simple vue project to manage toys I wanna buy and already bought. https://toys
 - [x] AOC C3583FQ/WS (2K, 35') (2016)
 - [x] <del>Kindle Voyage</del> (2015)
 - [x] <del>AOC U2870VQE (4k, 28')</del> (2014)
+
+## Vehicles 
+
+- [ ] Lamborghini
+- [x] Link&Co 01 (Limited Edition) (2018)
 
 
 ## License

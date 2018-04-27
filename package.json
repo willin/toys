@@ -1,6 +1,6 @@
 {
   "name": "wtoys",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "toys.js",
   "repository": "git@github.com:willin/toys.git",
   "author": "Willin Wang <willin@willin.org>",

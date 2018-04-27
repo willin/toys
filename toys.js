@@ -153,12 +153,15 @@
       category: 'Phones',
       items: [
         {
-          name: 'iPhone 8'
+          name: 'iPhone X',
+          year: 2017,
+          bought: true
         },
         {
           name: 'iPhone 7 plus',
           year: 2017,
-          bought: true
+          bought: true,
+          deleted: true
         },
         {
           name: 'iPhone 6s',
@@ -287,6 +290,20 @@
           year: 2014,
           bought: true,
           deleted: true
+        }
+      ]
+    },
+    {
+      category: 'Vehicles',
+      items: [
+        {
+          name: 'Lamborghini'
+        },
+        {
+          name: 'Link&Co 01',
+          meta: 'Limited Edition',
+          year: 2018,
+          bought: true
         }
       ]
     }
