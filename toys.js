@@ -255,6 +255,12 @@
           name: 'Airpods'
         },
         {
+          name: 'Apple TV 4k',
+          meta: '32GB',
+          year: 2018,
+          bought: true
+        },
+        {
           name: 'AfterShokz AS600 TrekzTianium',
           year: 2017,
           bought: true,
