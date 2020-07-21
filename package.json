@@ -1,6 +1,6 @@
 {
   "name": "wtoys",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "toys.js",
   "repository": "git@github.com:willin/toys.git",
   "author": "Willin Wang <willin@willin.org>",
@@ -10,8 +10,11 @@
     "prepare": "node build"
   },
   "devDependencies": {
-    "eslint": "^4.5.0",
-    "eslint-config-dwing": "^1.1.0",
-    "http-server": "^0.10.0"
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-willin": "^1.0.3",
+    "eslint-plugin-prettier": "^3.1.4",
+    "http-server": "^0.12.3",
+    "prettier": "^2.0.5"
   }
 }

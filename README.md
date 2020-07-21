@@ -7,9 +7,10 @@ A simple vue project to manage toys I wanna buy and already bought. https://toys
 
 ## Computers & Laptops 
 
-- [ ] iMac Pro
-- [x] iPad Pro (Cellular 12.9') (2017)
-- [x] MacBook Pro (with Touch Bar, 15') (2016)
+- [x] iMac 5k (27') (2019)
+- [x] iPad Mini (7.9') (2019)
+- [x] <del>iPad Pro (Cellular 12.9')</del> (2017)
+- [x] <del>MacBook Pro (with Touch Bar, 15')</del> (2016)
 - [x] <del>MacBook Pro (13')</del> (2015)
 - [x] <del>Terrans Force (Clevo W230ST, 13')</del> (2014)
 - [x] <del>MacBook Pro (15')</del> (2013)
@@ -21,23 +22,30 @@ A simple vue project to manage toys I wanna buy and already bought. https://toys
 - [ ] GH40 (40% Cyan Switch)
 - [ ] Cherry MX 8.0 (80% Speed Silver Switch)
 - [ ] Bloody B975 (Light Strike LK3)
-- [x] iPad Smart Keyboard (with Apple Pencil) (2017)
-- [x] Logitech MX Master 2S (2017)
-- [x] Logitech K780 (2015)
+- [x] Logitech MX Keys (2020)
+- [x] Logitech MX Ergo (2020)
+- [x] Logitech MX Master 3 (2019)
+- [x] <del>Logitech K480</del> (2019)
+- [x] <del>iPad Smart Keyboard (with Apple Pencil)</del> (2017)
+- [x] <del>Logitech MX Master 2S</del> (2017)
+- [x] <del>Logitech K780</del> (2015)
 - [x] <del>Logitech MX Master</del> (2016)
 - [x] Razer DeathAdder 2013 (2016)
 - [x] HHKB Pro 2 Type-S (60% Capacitive) (2016)
 - [x] <del>Magic Mouse 2</del> (2016)
-- [x] ikbc Poker 3 (60% Green Switch) (2015)
+- [x] <del>ikbc Poker 3 (60% Green Switch)</del> (2015)
 - [x] <del>Logitech K480</del> (2015)
 - [x] <del>SteelSeries Sensei</del> (2015)
-- [x] Cherry G80-1869HYNUS-2 (100% Red Switch) (2014)
+- [x] <del>Cherry G80-1869HYNUS-2 (100% Red Switch)</del> (2014)
 - [x] <del>Mad Catz R.A.T.9</del> (2013)
 - [x] <del>Magic Mouse</del> (2011)
 
 ## Phones 
 
-- [x] iPhone X (2017)
+- [ ] Huawei Mate 40 RS
+- [x] Huawei Mate 20 RS (2019)
+- [x] <del>Vivo NEX S Limited Edition</del> (2018)
+- [x] <del>iPhone X</del> (2017)
 - [x] <del>iPhone 7 plus</del> (2017)
 - [x] <del>iPhone 6s</del> (2016)
 - [x] <del>Samsung Galaxy S7</del> (2016)
@@ -51,25 +59,27 @@ A simple vue project to manage toys I wanna buy and already bought. https://toys
 
 ## Wrist Devices 
 
-- [x] Apple Watch S2 (42mm) (2017)
+- [x] Huawei Watch GT (42mm) (2019)
+- [x] <del>Apple Watch S2 (42mm)</del> (2017)
 - [x] <del>Garmin Forerunner 225</del> (2015)
 - [x] <del>Nike+ FuelBand 2</del> (2014)
 - [x] <del>Fitbit Flex</del> (2013)
 
 ## Geeks 
 
-- [ ] Airpods
+- [x] Freebuds 2 Pro (2019)
 - [x] Apple TV 4k (32GB) (2018)
 - [x] <del>AfterShokz AS600 TrekzTianium</del> (2017)
-- [x] Beats Solo 3 Wireless (Red limited edition) (2017)
+- [x] <del>Beats Solo 3 Wireless (Red limited edition)</del> (2017)
 - [x] Phlips 288P6LJEB (4K, 28') (2016)
-- [x] AOC C3583FQ/WS (2K, 35') (2016)
+- [x] <del>AOC C3583FQ/WS (2K, 35')</del> (2016)
 - [x] <del>Kindle Voyage</del> (2015)
 - [x] <del>AOC U2870VQE (4k, 28')</del> (2014)
 
 ## Vehicles 
 
 - [ ] Lamborghini
+- [ ] Link&Co 03+ (Performance Edition)
 - [x] Link&Co 01 (Limited Edition) (2018)
 
 

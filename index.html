@@ -2,14 +2,24 @@
 <html>
   <head>
     <title>Willin Wang's Toys</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="//willin.wang/favicon.ico"/>
-    <link rel="stylesheet" href="//unpkg.com/todomvc-app-css/index.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="//willin.wang/favicon.ico" />
+    <link rel="stylesheet" href="//unpkg.com/todomvc-app-css/index.css" />
     <style>
-      [v-cloak] { display: none; } 
-      .todo-list h3{ line-height: 1.5em;padding: 0 1em; }
-      del {color: rgba(255,0,99,0.5);} del span {color: #4d4d4d;}
+      [v-cloak] {
+        display: none;
+      }
+      .todo-list h3 {
+        line-height: 1.5em;
+        padding: 0 1em;
+      }
+      del {
+        color: rgba(255, 0, 99, 0.5);
+      }
+      del span {
+        color: #4d4d4d;
+      }
     </style>
   </head>
   <body>
@@ -21,13 +31,15 @@
         <ul class="todo-list">
           <template v-for="l in list">
             <li><h3>{{ l.category }}</h3></li>
-            <li v-for="item in filter(l.items)"
+            <li
+              v-for="item in filter(l.items)"
               class="item"
               :key="item.name + Math.random()"
-              :class="{ unbought: !item.bought, deleted: item.deleted }">
+              :class="{ unbought: !item.bought, deleted: item.deleted }"
+            >
               <div class="view">
-                <input class="toggle" type="checkbox" v-model="item.bought" disabled>
-                <label> 
+                <input class="toggle" type="checkbox" v-model="item.bought" disabled />
+                <label>
                   <del v-if="item.deleted"><span>{{ item.name }}</span></del>
                   <span v-else>{{ item.name }}</span>
                   <span v-if="item.year">({{ item.year }})</span>
@@ -39,9 +51,7 @@
         </ul>
       </section>
       <footer class="footer" v-show="list.length" v-cloak>
-        <span class="todo-count">
-          <strong>{{ remaining }}</strong> {{ remaining | pluralize }} wanted
-        </span>
+        <span class="todo-count"> <strong>{{ remaining }}</strong> {{ remaining | pluralize }} wanted </span>
         <ul class="filters">
           <li><a href="#/all" :class="{ selected: visibility == 'all' }">All</a></li>
           <li><a href="#/want" :class="{ selected: visibility == 'unbought' }">Want</a></li>
