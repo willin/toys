@@ -6,6 +6,13 @@
       category: 'Computers & Laptops',
       items: [
         {
+          name: 'Macbook Pro',
+          meta: "with Touch Bar, 13'",
+          year: 2020,
+          bought: true,
+          deleted: true
+        },
+        {
           name: 'iMac 5k',
           meta: "27'",
           year: 2019,
@@ -370,7 +377,9 @@
         },
         {
           name: 'Link&Co 03+',
-          meta: 'Performance Edition'
+          meta: 'Champion Limited Edition',
+          year: 2020,
+          bought: true
         },
         {
           name: 'Link&Co 01',
